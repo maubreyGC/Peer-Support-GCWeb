@@ -197,7 +197,7 @@
       </h3>
 <table
     class="provisional gc-table table wb-tables table-striped table-hover"
-    id="coffeeChats"
+    id="coffeeChat"
     >
     <thead></thead>
     <tbody></tbody>
@@ -214,7 +214,7 @@
 fetch("coffeechat.json")
     .then(response => response.json())
     .then(json => {
-        const table = document.getElementById("coffeeChats");
+        const table = document.getElementById("coffeeChat");
 
         // Build headers
         const thead = table.querySelector("thead");
