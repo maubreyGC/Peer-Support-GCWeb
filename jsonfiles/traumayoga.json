@@ -1,5 +1,30 @@
-
-[
+{
+  "columns": [
+    {
+      "field": "date",
+      "header": "Date",
+      "rowHeader": true
+    },
+    {
+      "field": "time",
+      "header": "Time"
+    },
+    {
+      "field": "group",
+      "header": "Group"
+    },
+    {
+      "field": "language",
+      "header": "Language"
+    }
+  ],
+  "data": [
+    {
+      "date": "Tuesday, June 23",
+      "time": "5:30 p.m. – 7:00 p.m. EST",
+      "group": "All-Gender",
+      "language": "English"
+    },
   {
     "date": "Monday, May 25",
     "time": "4:00 p.m. – 5:15 p.m. EST",
@@ -263,5 +288,6 @@
     "time": "6:00 p.m. – 7:15 p.m. EST",
     "group": "All-Gender",
     "language": "English"
-  }
-]
+}
+  ]
+}
